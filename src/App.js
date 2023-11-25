@@ -107,7 +107,7 @@ const fetchTask = async (id) => {
 
   return (
     <Router>
-    <Routes>
+    
 
     <div className="container">
         <Header onAdd={()=>setShowAddtask(!showAddTask)}
@@ -126,12 +126,12 @@ const fetchTask = async (id) => {
         )}
       
 
-        <Route path='/about' element={<About />} />
+        <About />
 
         {/* <Footer />  */}
      
     </div>
-    </Routes>
+    
     </Router>
   );
 }
